@@ -1,3 +1,7 @@
+export const metadata = {
+  title: "About",
+};
+
 export default function Page() {
   return (
     <div className="grid grid-cols-5 gap-x-24 gap-y-32 text-lg items-center">
@@ -28,16 +32,16 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="col-span-2">
+      {/* <div className="col-span-2">
         <img
           src="/about-1.jpg"
           alt="Family sitting around a fire pit in front of cabin"
         />
-      </div>
+      </div> */}
 
-      <div className="col-span-2">
+      {/* <div className="col-span-2">
         <img src="/about-2.jpg" alt="Family that manages The Wild Oasis" />
-      </div>
+      </div> */}
 
       <div className="col-span-3">
         <h1 className="text-4xl mb-10 text-accent-400 font-medium">
